@@ -7,7 +7,7 @@ body {
 }
 
 .profile-photo {
-    width: 50%; /* or any percentage or vw unit that suits your design */
+    width: 30%; /* or any percentage or vw unit that suits your design */
     height: auto; /* maintain the aspect ratio of the image */
     display: block; /* removes the bottom space typical with inline elements like img */
     margin: 0 auto; /* centers the image horizontally if the parent container allows */
