@@ -1,14 +1,69 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern-looking font */
+    line-height: 1.8;
     margin: 0;
     padding: 0;
-    background: #f4f4f4; /* Ensure this line is complete with a valid color or value */
+    background: #f4f4f4;
+    color: #333; /* softer than black for better readability */
+}
+
+header {
+    background: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    text-align: center;
+    color: #0056b3; /* Theme color */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: bold;
+}
+
+.main {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .profile-photo {
-    width: 20%; /* or any percentage or vw unit that suits your design */
-    height: auto; /* maintain the aspect ratio of the image */
-    display: block; /* removes the bottom space typical with inline elements like img */
-    margin: 0 auto; /* centers the image horizontally if the parent container allows */
+    width: 200px;
+    height: auto;
+    border-radius: 50%; /* Circular image */
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #0056b3;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
 }
