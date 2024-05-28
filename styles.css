@@ -2,7 +2,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern-looking font */
     line-height: 1.8;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0px;
     max-width: 800px;  
     background: #f4f4f4;
     color: #333; /* softer than black for better readability */
