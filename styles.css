@@ -68,3 +68,19 @@ footer {
 footer p {
     margin: 0;
 }
+
+
+.tools-section {
+    display: flex;
+    justify-content: space-around; /* Distributes space evenly between and around content items */
+    flex-wrap: wrap; /* Allows items to wrap onto the next line */
+}
+
+.tools-section > div {
+    flex: 1 1 40%; /* Each box will take up 40% of the flex container's width, allowing two boxes per line */
+    margin: 10px;
+}
+
+h3 {
+    margin-top: 0; /* Removes the top margin for all h3 elements to align titles better with the lists */
+}
