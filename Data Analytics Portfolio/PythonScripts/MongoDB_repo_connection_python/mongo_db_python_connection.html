@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BI and Analytics Projects</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+    <header>
+        <h1>My BI and Analytics Projects</h1>
+        <nav>
+            <ul>
+                <li><a href="../../../../index.html">Home</a></li>
+                <li><a href="../../../../data_analytics_portfolio.html">BI and Analytics Projects</a></li>
+                <li><a href="../../../../CV-Francisco Borja.pdf" target="_blank">CV</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Mongo DB connection to No SQL repository and Data Extraction with Python</h2>
+            <p>This program was created with the goal of connecting to a MongoDB repository (NoSQL database) and being able to extract the data using Mongo DB Pipeline/aggregation language, for subsequent manipulation.</p>
+
+<img src="script preview.jpg" alt="Dashboard Preview" style="width:100%; max-width:600px; display:block; margin:20px auto;">
+
+
+
+            <h3>Problem Description</h3>
+            <p>The company had a repository in MongoDB containing data previously extracted from Shopify via an API; however, these data were not being used for any analysis. In this case, the company wanted to start using their data to turn it into useful information for decision-making. The first step was naturally to connect to MongoDB and successfully extract the data.</p>
+            
+            <h3>Problem Resolution</h3>
+            <p>A Python program was created in a Jupyter Notebook. This program enabled the successful connection and data extraction from the MongoDB repository. Below, we describe the steps the program executes: The Jupyter Notebook connects to Google Drive to securely retrieve the connection string, then connects to the MongoDB repository, sends a request to get the data, and then uses MongoDB pipeline queries to obtain the necessary data from the resulting MongoDB response. Finally, it converts this data into a Python DataFrame.</p>
+            
+            <h3>Tools Involved</h3>
+            <ul>
+                <li>Mongo DB</li>
+                <li>Mongo DB pipelines/aggregations</li>
+                <li>python</li>
+                           </ul>
+
+          <a href="Orders by Zip Code Map Looker Studio.pdf" target="_blank">Open Project PDF</a>
+            <br>
+            <a href="https://github.com/francisco-borja/connection_dataextraction_mongodb" target="_blank">Go to Github project</a>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2023</p>
+    </footer>
+</body>
+</html>
