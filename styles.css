@@ -34,6 +34,16 @@ nav ul li a {
     text-decoration: none;
     color: #0056b3;
     font-weight: bold;
+    background-color: #f4f4f4; /* Light background for the button */
+    padding: 10px 20px;         /* Padding around the text */
+    border: 1px solid #0056b3;  /* Border to look like a button */
+    border-radius: 5px;         /* Rounded corners for the button */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+nav ul li a:hover {
+    background-color: #0056b3; /* Change background on hover */
+    color: #fff;               /* Change text color on hover */
 }
 
 .main {
@@ -47,8 +57,13 @@ nav ul li a {
 .about-me {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;  /* Align items to the start (left) rather than center */
+    text-align: justify;      /* Justify text for better alignment */
+    padding: 20px;            /* Add padding around the text */
+}
+
+.about-me p {
+    margin-bottom: 20px;      /* Add space between paragraphs */
 }
 
 .profile-photo {
