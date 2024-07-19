@@ -1,3 +1,4 @@
+/* Estilos base para el cuerpo del documento */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern-looking font */
     line-height: 1.8;
@@ -8,17 +9,16 @@ body {
     color: #333; /* softer than black for better readability */
 }
 
+/* Estilos para el encabezado */
 header { 
-    background: #fff;
+    background: #0056b3; /* Updated to have consistent header background */
+    color: white; /* Ensure text is visible on dark background */
     padding: 20px 0;
+    text-align: center;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-header h1 {
-    text-align: center;
-    color: #0056b3; /* Theme color */
-}
-
+/* Estilos de navegación y botones de navegación */
 nav ul {
     list-style: none;
     padding: 0;
@@ -32,51 +32,46 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #0056b3;
+    color: white; /* For better visibility on dark background */
     font-weight: bold;
-    background-color: #f4f4f4; /* Light background for the button */
-    padding: 10px 20px;         /* Padding around the text */
-    border: 1px solid #0056b3;  /* Border to look like a button */
-    border-radius: 5px;         /* Rounded corners for the button */
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+    background-color: #007BFF; /* Primary button color */
+    padding: 10px 20px;
+    border: 1px solid #0056b3;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 nav ul li a:hover {
-    background-color: #0056b3; /* Change background on hover */
-    color: #fff;               /* Change text color on hover */
+    background-color: #0056b3;
+    color: #fff;
 }
 
-.main {
+/* Estilos para el contenido principal y secciones específicas */
+.main, .about-me {
     max-width: 960px;
     margin: 20px auto;
     padding: 20px;
     background: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: justify; /* Justify text for better alignment */
 }
 
-.about-me {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;  /* Align items to the start (left) rather than center */
-    text-align: justify;      /* Justify text for better alignment */
-    padding: 20px;            /* Add padding around the text */
-}
-
-.about-me p {
-    margin-bottom: 20px;      /* Add space between paragraphs */
+.about-me p, .main p {
+    margin-bottom: 20px; /* Space between paragraphs */
 }
 
 .profile-photo {
-    width: 200px;
+    width: 200px; /* Specific size */
     height: auto;
     border-radius: 50%; /* Circular image */
     margin-bottom: 20px;
 }
 
+/* Estilos para el pie de página */
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #0056b3;
+    background: #333; /* Dark background for footer */
     color: #fff;
 }
 
@@ -84,11 +79,11 @@ footer p {
     margin: 0;
 }
 
-
+/* Sección de herramientas si es necesaria */
 .tools-section {
     display: flex;
-    justify-content: space-around; /* Distributes space evenly between and around content items */
-    flex-wrap: wrap; /* Allows items to wrap onto the next line */
+    justify-content: space-around; /* Distributes space evenly */
+    flex-wrap: wrap; /* Allows items to wrap */
 }
 
 .tools-section > div {
