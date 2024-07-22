@@ -101,13 +101,14 @@ footer {
     padding: 10px 0;
     background: #333;
     color: #fff;
-    position: fixed;
     left: 0;
     right: 0;
     bottom: 0;
     width: 100%;
 }
-
+footer p {
+    margin: 0;
+}
 /* Tool sections and other list styles for uniformity */
 .tools-section {
     display: flex;
