@@ -5,6 +5,7 @@ body {
     line-height: 1.8;
     margin: 0;
     padding: 30px; /* Increased padding to add space around the content */
+ max-width: 800px;  
     background: #f4f4f4;
     color: #333;
     box-sizing: border-box; /* Makes sure padding doesn't affect the overall width */
@@ -50,14 +51,14 @@ nav ul li a {
     font-weight: bold;  /* Texto en negrita */
     background-color: #ffffff;  /* Fondo blanco para los botones */
     padding: 10px 20px;  /* Espaciado interno para los botones */
-    border: 2px solid #0056b3;  /* Borde azul */
+    border: 1px solid #0056b3;  /* Border to look like a button */
     border-radius: 5px;  /* Bordes redondeados */
     transition: background-color 0.3s, color 0.3s;  /* Transición suave al cambiar el estado */
 }
 
 nav ul li a:hover, nav ul li a:focus {
     background-color: #0056b3;  /* Cambia el fondo al pasar el mouse o enfocar */
-    color: #ffffff;  /* Cambia el color del texto a blanco */
+    color: #fff;;  /* Cambia el color del texto a blanco */
 }
 
 /* Main content area styling */
