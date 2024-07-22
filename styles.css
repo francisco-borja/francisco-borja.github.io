@@ -112,3 +112,10 @@ li a {
     text-align: left; /* Ensures list links are aligned left */
     display: block; /* Full width links for easier interaction */
 }
+
+.contact-info {
+    background-color: #ffffff; /* Fondo blanco para mejorar la legibilidad */
+    color: #333; /* Texto oscuro para contraste */
+    padding: 20px; /* Espaciado adecuado */
+    text-align: left; /* Alineación a la izquierda de todo el texto */
+}
