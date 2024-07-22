@@ -21,6 +21,7 @@ header {
 /* Navigation links styling */
 nav ul {
     list-style: none;
+list-style-type: none;
     padding: 0;
     text-align: center;
 }
@@ -52,7 +53,13 @@ main {
     text-align: center; /* Center aligning text in the main content area */
     background: #ffffff; /* White background for main content area */
     box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Shadow for main sections */
+    padding-bottom: 60px; /* Adjust the value based on the height of your footer */
 }
+
+.justified-text {
+    text-align: justify; /* Ensures the specified paragraphs are justified */
+}
+
 
 /* Specific styling for the About Me section */
 .about-me {
@@ -69,14 +76,17 @@ main {
 }
 
 /* Footer styling across all pages */
+
 footer {
-    text-align: center;
-    padding: 10px 0;
+    text-align: center; /* Ensures text is centered inside the footer */
+    padding: 10px 0; /* Top and bottom padding */
     background: #333; /* Dark background for the footer */
-    color: #fff; /* White text color for footer */
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    color: #fff; /* White text color for readability */
+    position: fixed; /* Fixed position to keep it at the bottom */
+    left: 0; /* Aligns the left edge of the footer with the left edge of the viewport */
+    right: 0; /* Aligns the right edge of the footer with the right edge of the viewport */
+    bottom: 0; /* Positions the footer at the bottom of the viewport */
+    width: 100%; /* Ensures the footer extends across the full width of the viewport */
 }
 
 /* Tool sections and other list styles for uniformity */
@@ -93,4 +103,12 @@ footer {
 
 h3 {
     margin-top: 0;
+}
+
+h2 {
+    text-align: left; /* Headers aligned left */
+}
+li a {
+    text-align: left; /* Ensures list links are aligned left */
+    display: block; /* Full width links for easier interaction */
 }
