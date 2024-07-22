@@ -69,6 +69,7 @@ nav ul li a:hover, nav ul li a:focus {
     padding: 20px;
     background: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+   border: 2px solid #ccc;  /* Borde sólido gris claro */
 }
 .justified-text {
     text-align: justify; /* Ensures the specified paragraphs are justified */
