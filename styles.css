@@ -20,32 +20,42 @@ header h1 {
     color: #0056b3; /* Theme color */
 }
 
+nav {
+    background: #f4f4f4;  /* Fondo claro para la barra de navegación */
+    padding: 10px 0;  /* Espaciado vertical para la navegación */
+}
+
+
 /* Navigation links styling */
+
+
+
 nav ul {
-    list-style: none;
+    list-style: none;  /* Elimina los estilos de lista */
     padding: 0;
-    text-align: center;
+    margin: 0;
+    text-align: center;  /* Centra los elementos de la lista */
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 10px;
+    display: inline-block;  /* Display inline-block para alinear horizontalmente */
+    margin-right: -4px;  /* Elimina el espacio entre elementos inline-block */
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #0056b3;
-    font-weight: bold;
-    background-color: #f4f4f4; /* Light background for the button */
-    padding: 10px 20px;         /* Padding around the text */
-    border: 1px solid #0056b3;  /* Border to look like a button */
-    border-radius: 5px;         /* Rounded corners for the button */
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+    text-decoration: none;  /* Elimina el subrayado de los enlaces */
+    color: #0056b3;  /* Color del texto */
+    font-weight: bold;  /* Texto en negrita */
+    background-color: #ffffff;  /* Fondo blanco para los botones */
+    padding: 10px 20px;  /* Espaciado interno para los botones */
+    border: 2px solid #0056b3;  /* Borde azul */
+    border-radius: 5px;  /* Bordes redondeados */
+    transition: background-color 0.3s, color 0.3s;  /* Transición suave al cambiar el estado */
 }
 
-nav ul li a:hover {
-    background-color: #0056b3; /* Change background on hover */
-    color: #fff;               /* Change text color on hover */
+nav ul li a:hover, nav ul li a:focus {
+    background-color: #0056b3;  /* Cambia el fondo al pasar el mouse o enfocar */
+    color: #ffffff;  /* Cambia el color del texto a blanco */
 }
 
 /* Main content area styling */
@@ -83,15 +93,15 @@ nav ul li a:hover {
 /* Footer styling across all pages */
 
 footer {
-    text-align: center; /* Ensures text is centered inside the footer */
-    padding: 10px 0; /* Top and bottom padding */
-    background: #333; /* Dark background for the footer */
-    color: #fff; /* White text color for readability */
-    position: fixed; /* Fixed position to keep it at the bottom */
-    left: 0; /* Aligns the left edge of the footer with the left edge of the viewport */
-    right: 0; /* Aligns the right edge of the footer with the right edge of the viewport */
-    bottom: 0; /* Positions the footer at the bottom of the viewport */
-    width: 100%; /* Ensures the footer extends across the full width of the viewport */
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 /* Tool sections and other list styles for uniformity */
@@ -119,7 +129,6 @@ li a {
 }
 
 .contact-info {
-    background-color: #ffffff; /* Fondo blanco para mejorar la legibilidad */
     color: #333; /* Texto oscuro para contraste */
     padding: 20px; /* Espaciado adecuado */
     text-align: left; /* Alineación a la izquierda de todo el texto */
