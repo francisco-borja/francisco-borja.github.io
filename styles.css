@@ -134,8 +134,3 @@ li a {
     display: block; /* Full width links for easier interaction */
 }
 
-.contact-info {
-    color: #333; /* Texto oscuro para contraste */
-    padding: 20px; /* Espaciado adecuado */
-    text-align: left; /* Alineación a la izquierda de todo el texto */
-}
