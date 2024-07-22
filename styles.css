@@ -5,10 +5,11 @@ body {
     line-height: 1.8;
     margin: 0 auto;
     padding: 30px; /* Increased padding to add space around the content */
- max-width: 800px;  
+ max-width: 900px;  
     background: #f4f4f4;
     color: #333;
     box-sizing: border-box; /* Makes sure padding doesn't affect the overall width */
+margin-bottom: 100px;
 }
 
 /* Header styling across all pages */
