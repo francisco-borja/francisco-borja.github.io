@@ -3,7 +3,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.8;
-    margin: 0;
+    margin: 0 auto;
     padding: 30px; /* Increased padding to add space around the content */
  max-width: 800px;  
     background: #f4f4f4;
