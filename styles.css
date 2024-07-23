@@ -135,3 +135,9 @@ li a {
     display: block; /* Full width links for easier interaction */
 }
 
+.content-image {
+    max-width: 100%;  /* Ensures the image does not exceed the container width */
+    height: auto;  /* Maintains the aspect ratio */
+    display: block;  /* Removes any extra space below the image */
+    margin: 0 auto;  /* Centers the image horizontally */
+}
