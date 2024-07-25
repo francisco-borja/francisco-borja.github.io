@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BI and Analytics Projects</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+    <header>
+        <h1>My BI and Analytics Projects</h1>
+        <nav>
+            <ul>
+                <li><a href="../../../index.html">Home</a></li>
+                <li><a href="../../../data_analytics_portfolio.html">BI and Analytics Projects</a></li>
+                <li><a href="../../../CV-Francisco Borja.pdf" target="_blank">CV</a></li>
+		<li><a href="../../../contact_info.html">Contact me</a></li>
+
+            </ul>
+        </nav>
+<div id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    </header>
+    <main>
+        <section>
+            <h2>Orchestration of several ETL and Python programs with Pentaho for the update of several Looker Studio reports- Daily Execution</h2>
+            <p>This project involved creating a Pentaho "Job" for the synchronization and orchestration of several Pentaho ETL "transformations" (involving the extraction, transformation, and loading of data), as well as Python programs that update the data for all dashboards and reports within a customer organization. Over the course of a few months, different ETL projects were developed to configure several reports now utilized by various teams within the organization. Some examples of the reports these ETL programs feed include the Analysis of Sales by Sales Employees for the Sales team, Delivery Costs for the Logistics and Financial teams, Analysis of Claims/Warranties, and Inventory Performance Analysis for the Logistics and Procurement teams, among others.
+The creation of this Pentaho “Job” was aimed at ensuring the daily update of all reports and dashboards while keeping all previous developments mapped and centralized.
+</p>
+
+            <h3>How it works:</h3>
+            <p>Essentially, all ETL "transformations" or programs are executed sequentially, based on the relationship and dependencies of each. At the end of each "transformation," the programs deposit the resulting data into CSV files, which are securely stored in a Google Drive repository. Subsequently, various Python programs load the data from these CSV files into distinct tables within a Google BigQuery dataset, tailored for each specific purpose. Finally, each report or dashboard created in Looker Studio for the different organizational teams connects to the corresponding BigQuery table with the daily updated data. </p>
+
+<img src="Pentaho Orchestration Job.png" alt="Dashboard Preview" style="width:100%; max-width:600px; display:block; margin:20px auto;">
+
+
+        
+            <p>Additionally If any Job fails during its execution, it automatically sends an email to notify of the precise error. If the complete Job is executed without any errors, it sends an email confirming the successful and correct execution of the Job. </p>
+
+
+<img src="ETL Pentaho Job.png" alt="ETL Job Preview" style="width:100%; max-width:600px; display:block; margin:20px auto;">
+
+            
+            <h3>Tools Involved</h3>
+            <ul>
+                <li>Pentaho Data Integration</li>
+		<li>Pentaho Job</li>
+                <li>Python</li>
+                <li>Big Query</li>
+            </ul>
+
+         
+                   </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2024</p>
+    </footer>
+</body>
+</html>
