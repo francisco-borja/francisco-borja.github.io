@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BI and Analytics Projects</title>
+    <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+    <header>
+        <h1>My BI and Analytics Projects</h1>
+        <nav>
+            <ul>
+                <li><a href="../../../index.html">Home</a></li>
+                <li><a href="../../../data_analytics_portfolio.html">BI and Analytics Projects</a></li>
+                <li><a href="../../../CV-Francisco Borja.pdf" target="_blank">CV</a></li>
+                <li><a href="../../../contact_info.html">Contact me</a></li>
+            </ul>
+        </nav>
+        <div id="google_translate_element"></div>
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+            }
+        </script>
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    </header>
+
+    <main>
+        <section>
+            <h2>BI Project – Streamlit Cost Estimation App for Travel Itineraries</h2>
+            <p>This project consists of an intelligent cost estimator that allows travel agents and clients to generate instant price quotes based on selected services. Built entirely in Python and Streamlit, this web app connects to a centralized Google Sheet that contains structured pricing data and rules.</p>
+            
+            <img src="cost_estimation_app_preview.jpg" alt="Streamlit Cotizador App Preview" style="width:100%; max-width:600px; display:block; margin:20px auto;">
+            
+            <h3>Problem Description</h3>
+            <p>The challenge addressed in this project was the manual and time-consuming process of calculating costs for travel packages. Pricing data was scattered across multiple Excel and Google Sheets, with varying formats and conditions based on group size and service type (per person vs. group pricing).</p>
+            
+            <h3>Problem Resolution</h3>
+            <p>I created a centralized and automated pricing app using Streamlit. It connects to a Google Sheet with real-time cost data, differentiates between services charged per person and per group, and dynamically applies pricing rules based on group sizes. The tool calculates total quotes in seconds, removing the need for error-prone manual computation.</p>
+            
+            <h3>Key Features</h3>
+            <ul>
+                <li>Dynamic form with day-by-day service selection</li>
+                <li>Automatic cost calculation based on pricing logic</li>
+                <li>Integration with centralized Google Sheet as source of truth</li>
+                <li>Final summary table and total cost calculation</li>
+                <li>Built with Python + Streamlit, deployed on Streamlit Cloud</li>
+            </ul>
+
+            <h3>Tools Used</h3>
+            <ul>
+                <li>Python</li>
+                <li>Streamlit</li>
+                <li>Google Sheets (API)</li>
+                <li>Pandas</li>
+            </ul>
+
+            <a href="https://francisco-borja.github.io/Data%20Analytics%20Portfolio/Cotizador%20Autom%C3%A1tico%20de%20Servicios%20-%20Streamlit%20App" target="_blank">Open Streamlit App Page</a>
+            <br>
+            <a href="https://docs.google.com/spreadsheets/d/1R_1AuEU2x08ugevXYWH9ezgnW1XuTI2fRTnbwcKZINU/edit#gid=1764539805" target="_blank">Explore the Google Sheet used as a database</a>
+            <br>
+            <a href="https://francisco-borja.streamlit.app" target="_blank">Use the App Now</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2024</p>
+    </footer>
+</body>
+</html>
+
+
